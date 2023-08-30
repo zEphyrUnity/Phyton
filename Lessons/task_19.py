@@ -22,7 +22,7 @@ def shift(some_list):
     reverse(k, len(some_list))
 
 
-some_list = [1, 2, 3, 4, 5]
+some_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 k = 2
 
 print(some_list)

@@ -33,6 +33,10 @@ def take_element(matrix, row, col):
     return matrix[row - 1][col - 1]
 
 
+def take_element2(matrix, row, col):
+    return matrix[row - 1][col - 1] / 2
+
+
 def print_operation_table(operation, num_rows=6, num_columns=6):
     matrix = get_multitable(11, 11)
 
@@ -45,3 +49,4 @@ def print_operation_table(operation, num_rows=6, num_columns=6):
 
 
 print_operation_table(take_element, 6, 6)
+print_operation_table(take_element2, 6, 6)
